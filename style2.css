@@ -38,11 +38,17 @@ flex-wrap: wrap;
 }
 
 main img {
-width:60%;
+width:100%;
 height: auto;
 }
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 20px;
+}
 
-h1 {
+h1 h2 {
 color: #333;
 margin-bottom: 20px;
 }
@@ -52,4 +58,9 @@ background-color: #333;
 color: #ffffff;
 padding: 10px;
 text-align: center;
+}
+.element {
+  box-shadow: 2px 2px 4px #ccc;
+  border: 1px solid #ccc;
+  border-radius: 4px;
 }
