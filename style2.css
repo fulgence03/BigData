@@ -24,7 +24,7 @@ nav ul li a {
 color: #ffffff;
 text-decoration: none;
 padding: 10px;
-display: flex;
+display: block;
 }
 
 nav ul li a:hover {
