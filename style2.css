@@ -2,8 +2,10 @@ body {
 background-color: #f2f2f2;
 font-family: Arial, sans-serif;
 color: #333;
-margin: 0;
+margin: 0 auto;
 padding: 0;
+display:flex;
+justify-content:center;
 }
 
 header {
@@ -31,7 +33,7 @@ background-color: #333;
 }
 
 main {
-max-width: 1200px;
+max-width: 100%;
 margin: 0 auto;
 padding: 20px;
 flex-wrap: wrap;
@@ -41,14 +43,8 @@ main img {
 width:100%;
 height: auto;
 }
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: auto;
-    grid-gap: 20px;
-}
 
-h1 h2 {
+h1,h2 {
 color: #333;
 margin-bottom: 20px;
 }
@@ -59,8 +55,4 @@ color: #ffffff;
 padding: 10px;
 text-align: center;
 }
-.element {
-  box-shadow: 2px 2px 4px #ccc;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
+
