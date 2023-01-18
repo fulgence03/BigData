@@ -38,8 +38,8 @@ flex-wrap: wrap;
 }
 
 main img {
-width:60%;
-height: auto;
+width:70%;
+height:70%;
 padding:5px;
 display:block;
 margin:auto;
@@ -50,6 +50,7 @@ margin-bottom: 20px;
 }
 h1{
 color:black;
+  text-align:center;
 }
 h2{
 color:blue;
