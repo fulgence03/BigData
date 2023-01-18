@@ -4,7 +4,6 @@ font-family: Arial, sans-serif;
 color: #333;
 padding:20px;
   margin:0 auto;
-display:flex;
 }
 
 header {
@@ -24,7 +23,7 @@ nav ul li a {
 color: #ffffff;
 text-decoration: none;
 padding: 10px;
-display: block;
+display: flex;
 }
 
 nav ul li a:hover {
